@@ -1,0 +1,15 @@
+/*
+ Styles specific to global DOM elements like NavBar and Footer
+    i.e which remains same in every page
+*/
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+    

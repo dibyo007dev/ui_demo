@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<title>Teachers Portal</title>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Teacher Portal</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./../styles/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="./../styles/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./../styles/bootstrap-4.0.0-dist/css/bootstrap-reboot.css">
+
+  <link rel="stylesheet" href="./../styles/bootstrap-4.0.0-dist/bootstrap-datepicker3.standalone.css">
+  <link rel="stylesheet" href="./../styles/bootstrap-4.0.0-dist/bootstrap-datepicker.standalone.css">
+
+  <!--Custom CSS-->
+
+  <link rel="stylesheet" href="./../styles/main.css">
+  <link rel="stylesheet" href="./../styles/teachers_portal.css">
+
+</head>
+
+<body>
+
+  <!--Navigation Bar-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="./../index.html">Attendance Management System</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse float-right" id="navbarColor01">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./../index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Profile</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--End Of Navigation Bar-->
+
+  <div class="container-fluid index-container">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="index_container">
+          <h1 class="display-3 portal-head">Teachers Portal</h1>
+        </div>
+
+        <div class="check-att-teacher">
+          <h3>
+            Check Attendance
+            <small class="text-muted">With Specific USN </small>
+          </h3>
+
+          <ul class="nav-pills flex-column ">
+            <a href="./check_attendance.html">
+              <button id="custom-check" class="btn btn-primary">Check Attendance</button>
+            </a>
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="col-md-5">
+
+        <form class="filter-form">
+          <fieldset>
+            <br />
+            <h3 class="text-muted">Select Students</h3>
+            <br/>
+            <br/>
+            <div class="form-group row flex-container">
+              <div class="form-group col-md-5">
+                <label for="exampleSelect1">SELECT BRANCH</label>
+                <select class="form-control" id="exampleSelect1">
+                  <option>CSE</option>
+                  <option>ISE</option>
+                  <option>ECE</option>
+                  <option>MECH</option>
+                  <option>ELECTRICAL</option>
+                  <option>EIE</option>
+                </select>
+              </div>
+              <div class="form-group col-md-5">
+                <label for="exampleSelect1">SELECT SEM</label>
+                <select class="form-control" id="exampleSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                </select>
+              </div>
+              <div class="form-group col-md-5">
+                <label for="exampleSelect1">SELECT SECTION</label>
+                <select class="form-control" id="exampleSelect1">
+                  <option>A</option>
+                  <option>B</option>
+                  <option>Add-On</option>
+                </select>
+              </div>
+              <div class="form-group col-md-5">
+                <label for="exampleSelect1">PICK DATE</label>
+                <input id="datepicker" width="276" />
+
+              </div>
+              <div class="form-group col-md-5">
+                <div class="form-group ">
+                  <label for="exampleSelect1">SELECT PERIOD</label>
+                  <select class="form-control" id="exampleSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                  </select>
+                </div>
+              </div>
+
+          </fieldset>
+
+          <div class="button-flex">
+            <a href="./add_attendance.html" class="btn btn-primary" style="margin: 2% 2%" role="button">ADD ATTENDANCE</a>
+            <a href="./edit_attendance.html" class="btn btn-primary" role="button" style="margin: 2% 2%">EDIT ATTENDANCE</a>
+          </div>
+
+        </form>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!--Footer Part-->
+    <footer class="py-2 bg-primary fixed-bottom text-center">
+      <div class="container">
+        <p class="lead text-white">Copyright &copy; AIKYA SDE 2018</p>
+      </div>
+    </footer>
+    <!--End Of Footer-->
+
+    <!-- jQuery -->
+    <script src="./../scripts/vendor_scripts/jquery-3.3.1.js"></script>
+    <script src="./../styles/bootstrap-4.0.0-dist/bootstrap-datepicker.js"></script>
+
+    <!-- Custom Scripts-->
+
+    <script src="./../scripts/script.js"></script>
+    <script src="./../scripts/teachers_portal.js"></script>
+
+
+
+</body>
+
+</html>

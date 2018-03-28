@@ -1,0 +1,9 @@
+.check-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.check-attendance-btn {
+    padding: 1% 5%;
+}

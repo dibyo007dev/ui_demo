@@ -1,0 +1,46 @@
+/*
+ Styles specific to teachers_portal.html
+*/
+
+#custom-check {
+    text-align: center;
+    font-size: 30px;   
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  .check-att-teacher {
+    padding-top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .filter-form {
+    padding-left: 10%;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .flex-container > div {
+    text-align: center;
+  
+  }
+
+  .button-flex {
+      display: flex;
+      flex-wrap: wrap;      
+  }
+
+  .button-flex > button {
+      margin: 8% 2%;
+  }
+
+  .portal-head {
+      margin-top: 5%;
+  }

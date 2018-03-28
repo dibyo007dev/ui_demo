@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teacher SignUp</title>
+
+    <!-- Bootstrap -->
+  <link rel="stylesheet" href="./../styles/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="./../styles/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./../styles/bootstrap-4.0.0-dist/css/bootstrap-reboot.css">
+
+   <!--Custom CSS-->
+  <link rel="stylesheet" href="./../styles/main.css">
+  <link rel="stylesheet" href="./../styles/teachers_signup.css">
+</head>
+<body>
+
+  <!--Navigation Bar-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="./../index.html">Attendance Management System</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse float-right" id="navbarColor01">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./../index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./../index.html">Sign In</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./teacher_signup.html">Sign Up</a>
+        </li>
+
+      </ul>
+  </div>
+</nav>
+<!--End Of Navigation Bar-->
+<!--Container Part-->
+<div class="container-fluid index-container">
+        <div class="row"> </div>
+
+    <div class="row">
+      <div class="col-sm-3" > </div>
+         <div class="col-sm-6">
+
+            <form>
+                <fieldset>
+                  <div class="form-group">
+                        <h4 class="text-muted">Teacher Details</h4>
+                  </div>
+
+
+                  <div class="form-group">
+                        <label for="InputTeacherId">Id</label>
+                        <input class="form-control" id="InputTeacherId"  placeholder="Enter Teacher Id" type="text" required>
+                      </div>
+
+                 <div class="form-group">
+                        <label for="InputTeacherName">Name</label>
+                        <input class="form-control" id="InputTeacherName"  placeholder="Enter Teacher Name" type="text" required>
+                      </div>
+
+                <div class="form-group">
+                        <label for="InputTeacherDepartment">Department</label>
+                        <input class="form-control" id="InputTeacherDepartment"  placeholder="Enter Teacher Department" type="text" required>
+                      </div>
+
+                    <div class="form-group">
+                        <label for="InputTeacherPhone">Phone</label>
+                        <input class="form-control" id="InputTeacherPhone"  placeholder="Enter Teacher Phone Number" type="text" required>
+                      </div>
+
+                  <div class="form-group">
+                    <label for="InputEmail">Email</label>
+                    <input class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email" type="email" required>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputPassword">Password</label>
+                    <input class="form-control" id="exampleInputPassword" placeholder="Password" type="password" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputPassword">Confirm Password</label>
+                    <input class="form-control" id="exampleInputPassword" placeholder="Password" type="password" required>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </fieldset>
+              </form>
+        </div>
+      <div class="col-sm-3" > </div>
+
+    </div>
+  </div>
+  <div class="row"> </div>
+<!--End Of Container-->
+<!--Footer Part-->
+<footer class="py-2 bg-primary fixed-bottom text-center">
+    <div class="container">
+      <p class="lead text-white">Copyright &copy; AIKYA SDE 2018</p>
+    </div>
+  </footer>
+<!--End Of Footer-->
+
+<!--jQuery-->
+<script src="./../scripts/vendor_scripts/jquery-3.3.1.js"></script>
+
+<!-- Custom Scripts -->
+<script src="./../scripts/index_script.js"></script>
+<script src="./../scripts/teacher_signup.js"></script>
+
+
+</body>
+</html>

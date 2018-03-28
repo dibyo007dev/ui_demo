@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edit Attendance</title>
+
+    <!-- Bootstrap Files -->
+    <link rel="stylesheet" href="./../styles/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./../styles/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../styles/bootstrap-4.0.0-dist/css/bootstrap-reboot.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./../styles/main.css">
+    <link rel="stylesheet" href="./../styles/add_attendance.css">
+</head>
+
+<body>
+
+    <!--Navigation Bar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="./../index.html">Attendance Management System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse float-right" id="navbarColor01">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./../index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./../index.html">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./teacher_signup.html">Sign Up</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!--End Of Navigation Bar-->
+
+    <!--Attendance Table-->
+    <div class="container index-container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">Branch</li>
+                    <li class="breadcrumb-item">Sem</li>
+                    <li class="breadcrumb-item">Sec</li>
+                    <li class="breadcrumb-item">Date</li>
+                    <li class="breadcrumb-item active">Class</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">USN</th>
+                            <th scope="col">Present</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1RN16CS001</th>
+                            <td>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
+                                    <label class="custom-control-label" for="customCheck1"></label>
+                                </div>
+            </div>
+            </td>
+            </tr>
+            <tr>
+                <th scope="row">1RN16CS002</th>
+                <td>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck2" checked="">
+                        <label class="custom-control-label" for="customCheck2"></label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">1RN16CS003</th>
+                <td>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck3" checked="">
+                        <label class="custom-control-label" for="customCheck3"></label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">1RN16CS004</th>
+                <td>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck4" checked="">
+                        <label class="custom-control-label" for="customCheck4"></label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">1RN16CS005</th>
+                <td>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck5" checked="">
+                        <label class="custom-control-label" for="customCheck5"></label>
+                    </div>
+                </td>
+            </tr>
+            <tr class="table-primary">
+                <th scope="row">1RN16CS006</th>
+                <td>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck6" checked="">
+                        <label class="custom-control-label" for="customCheck6"></label>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+            </table>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+    </div>
+    <!--End of Attendance Table-->
+
+    <!--Footer Part-->
+    <footer class="py-2 bg-primary fixed-bottom text-center">
+        <div class="container">
+            <p class="lead text-white">Copyright &copy; AIKYA SDE 2018</p>
+        </div>
+    </footer>
+    <!--End Of Footer-->
+
+
+
+    <!-- jQuery -->
+    <script src="./../scripts/vendor_scripts/jquery-3.3.1.js"></script>
+
+    <!-- Custom Scripts-->
+    <script src="./../scripts/script.js"></script>
+    <script src="./../scripts/edit_attendance.js"></script>
+
+</body>
+
+</html>

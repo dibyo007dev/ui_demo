@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+
+  <link href="./styles/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="./styles/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="./styles/Index_styles.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li>
+      <a href="./views/teachers_login.html">Log In</a>
+    </li>
+    <li>
+      <a href="#!">Sign Up</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="#!">Sign Out</a>
+    </li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" data-target="slide-out" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+      <a href="#!" class="brand-logo"> &nbsp; Aikya SDE</a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="#">About Us</a>
+        </li>
+
+        <!-- Dropdown Trigger -->
+        <li>
+          <a class="dropdown-trigger" href="#!" data-target="dropdown1">Profile</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="">
+        </div>
+        <a href="#user">
+          <img class="circle" src="No-Picture.jpg">
+        </a>
+        <a href="#name">
+          <span class="black-text name">John Doe</span>
+        </a>
+        <a href="#email">
+          <span class="black-text email">doe.johnjohn@gmail.com</span>
+        </a>
+      </div>
+    </li>
+    <li>
+      <a href="#!">
+        <i class="material-icons">cloud</i><strong>My Profile</strong></a>
+    </li>
+    <li>
+      <a href="./views/teachers_login.html">Login</a>
+    </li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li>
+      <a class="subheader">Sign Up</a>
+    </li>
+    <li>
+      <a class="waves-effect" href="#!">Sign Out</a>
+    </li>
+  </ul>
+
+
+  <main class=" teal lighten-3">
+    <h2 class="white-text head-text"><blockquote><strong> Attendance Management System</strong></blockquote></h2>
+    <br>
+    <h4 class="info-text white-text">Attendance Updater</h4>
+    <div class="btn-wrapper">
+    <a class="waves-effect waves-light btn-large red darken-1 get-started-btn">Get Started</a>
+      </div>
+  </main>
+
+  
+
+  <!-- Footer Starts here -->
+
+
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!--  #Scripts -->
+  <script src="./scripts/vendor_scripts/jquery-3.3.1.js"></script>
+  <script src="./styles/materialize/js/materialize.min.js"></script>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/index_script.js"></script>
+
+</body>
+
+</html>
